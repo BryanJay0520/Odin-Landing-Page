@@ -1,0 +1,156 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #F7F9FC;
+  color: #1A3D8F;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1A3D8F;
+}
+
+.logo span {
+  color: #8EC9FF;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #1A1A1A;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 80px 60px;
+  gap: 40px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero-text h2 {
+  font-size: 18px;
+  color: #E5E7EB;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.hero-text p {
+  max-width: 450px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.hero-p {
+  color: #8EC9FF;
+}
+
+.cta {
+  padding: 12px 24px;
+  background: #1A3D8F;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.hero-img .circle {
+  width: 800px;
+  height: 300px;
+  background: linear-gradient(135deg, #1A3D8F, #8EC9FF);
+  border-radius: 0%;
+}
+
+/* ABOUT */
+.about {
+  padding: 60px;
+  text-align: center;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.info-section {
+  padding: 60px;
+  text-align: center;
+}
+
+.info-section h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: #1A3D8F;
+}
+
+.info-flex {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 180px;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #1A3D8F;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  color: #1A3D8F;
+  text-align: center;
+
+}
+
+.info-card p {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+/* CONTACT */
+.contact {
+  padding: 60px;
+  text-align: center;
+}
+/* CONTACT */
+  
+
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #1F2937;
+  color: white;
+}
+
